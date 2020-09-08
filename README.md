@@ -24,3 +24,5 @@
   java 10.0.2
 5. mvn --version <br/>
   Apache Maven 3.6.3
+
+#### [Get-Started-with-Schedule-Optimizer](https://github.com/se20z09/se20z09-Project/wiki/Get-Started-with-Schedule-Optimizer)
