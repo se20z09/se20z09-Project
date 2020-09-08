@@ -1,0 +1,20 @@
+<h4 style="text-align:center">Student List</h4>
+
+<div class="table-responsive" style="padding: 2% 10% 5% 8%;">
+    <table style="text-align: center;" class="table table-striped table-hover table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of students">
+                <th scope="row">{{student.id}}</th>
+                <td>{{student.firstname}}</td>
+                <td>{{student.lastname}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
