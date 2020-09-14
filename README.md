@@ -2,8 +2,7 @@
 ### Recourse - The Schedule Optimizer
 
 ### Checkout the video by clicking on image below
-
-[!](https://img.youtube.com/vi/bXHF39NtZzY/0.jpg)](https://www.youtube.com/watch?v=bXHF39NtZzY)
+[![Watch the video](https://img.youtube.com/vi/bXHF39NtZzY/0.jpg)](https://www.youtube.com/watch?v=bXHF39NtZzY)
 #### Required Softwares:
 ##### FrontEnd:
 * [Node](https://nodejs.org/en/download/)
