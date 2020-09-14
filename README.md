@@ -1,7 +1,9 @@
 ## se20z09-Project
 ### Recourse - The Schedule Optimizer
-Checkout the video by clicking on immage below
-[![Watch the video by clicking on the image](https://img.youtube.com/vi/bXHF39NtZzY/0.jpg)](https://www.youtube.com/watch?v=bXHF39NtZzY)
+
+### Checkout the video by clicking on image below
+
+[!](https://img.youtube.com/vi/bXHF39NtZzY/0.jpg)](https://www.youtube.com/watch?v=bXHF39NtZzY)
 #### Required Softwares:
 ##### FrontEnd:
 * [Node](https://nodejs.org/en/download/)
