@@ -1,5 +1,6 @@
 ## se20z09-Project
 ### Recourse - The Schedule Optimizer
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXHF39NtZzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #### Required Softwares:
 ##### FrontEnd:
 * [Node](https://nodejs.org/en/download/)
