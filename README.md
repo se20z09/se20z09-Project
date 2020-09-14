@@ -1,5 +1,5 @@
 ## se20z09-Project
-### Schedule Optimizer
+### Recourse - The Schedule Optimizer
 #### Required Softwares:
 ##### FrontEnd:
 * [Node](https://nodejs.org/en/download/)
