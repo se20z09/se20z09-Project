@@ -1,0 +1,35 @@
+Title: Smart Degree Planner for Undergrads @ NCSU
+
+Description: This would be an academic advising utility for undergrad students to plan out the courses they need to graduate. The idea is that students would select their degree plan from a dropdown list which would then be compared against which courses they have already completed. The program would scrape data from the NCSU course catalog about prerequisites and which semesters a course is offered and use that data to propose an optimized schedule for the student broken down by semester. Additional features could include the option to specify a maximum/minimum number of semesters in which to complete their degree, changing the suggested schedule. Finally, some kind of export to pdf/save to file option would be provided.
+
+Problems Solved:
+	- Cuts down on number of emails advisors need to answer at registration time
+	- Eliminates wait time for students to get answers to common degree questions
+	- Provides easy way to get students to think long-term about their degree plans
+
+Features:
+	- GUI with:
+		- Dropdown list of all degree audits
+		- Stretch goal: search bar for degree
+		- File upload for unofficial degree audit
+		- Stretch goal: MyPackPortal login and integration
+		- Optimized schedule arranged by semester
+		- Export to file
+	- Scrapes course catalog periodically to update prerequisites and semesters courses are offered
+	- Maintains database of degree audits
+	- Maintains database of courses (or checks catalog at runtime)
+	- Uses priority system to arrange optimized schedule
+		- Example priority systems could be scheduling courses in order of which are most prevalent prerequisites or
+		based on historical data of which semesters a course is typically taken in.
+		- Priority system could be specific to a degree audit and tweaked based on that department's input.
+	- Stretch goal: option to specify target number of semesters
+	- Stretch goal: option to specify ratio of core to elective classes per semester
+
+*Proposed* Tech Stack: FYI, I've never been able to choose my tech stack before, so this will likely need to be changed a lot.
+	Front-end: Angular Typescript
+	Back-end: Springboot + MySQL DB
+
+Challenges:
+	- A LOT (10000+) database items to manage.
+	- Will need OCR to parse completed courses if we can't do MyPack integration
+	- Not as sexy as something like a videogame or smartphone app, might be hard to convince teams to join
