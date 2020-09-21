@@ -8,9 +8,10 @@ import { Observable } from 'rxjs';
 export class StudentService {
 
   private _studentUrl = "http://localhost:8086/api/student/allStudents";
+  private _courseUrl = "http://localhost:8086/api/courses/allCourses";
   constructor(private http: HttpClient) { }
 
   getAll(): Observable<any> {
-    return this.http.get(this._studentUrl);
+    return this.http.get(this._courseUrl);
   }
 }
