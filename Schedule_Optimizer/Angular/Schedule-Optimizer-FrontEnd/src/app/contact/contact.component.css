@@ -1,0 +1,8 @@
+.bg {
+    background-image: url("../../assets/images/Contact-Us.jpg");
+    height: 100%;
+    /* opacity: 0.6; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
