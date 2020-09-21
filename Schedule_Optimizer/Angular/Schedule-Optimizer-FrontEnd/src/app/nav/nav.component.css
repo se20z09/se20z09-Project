@@ -1,0 +1,22 @@
+.tab {
+    margin: 5px;
+    padding: 4px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: red;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0.75 ), rgba(255,0,0,1));;
+}
+
+.rotate90 {
+    width :100px;
+    height : 60px;
+    margin: 0px;
+    /* -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg); */
+    /* transform: rotate(330deg); */
+}
