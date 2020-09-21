@@ -1,0 +1,17 @@
+.bg {
+    background-image: url("../../assets/images/red-bell-tower.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center {
+    margin: auto;
+    width: 80%;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    color: white;
+  }
+  .videos {
+      text-align: center;
+  }
