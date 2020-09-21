@@ -1,17 +1,17 @@
 Required Software
 
 Version Check Commands
-1. node -v <br/>
+1. node -v
   node==12.18.8
-2. npm -v <br/>
+2. npm -v
   npm==6.14.6
-3. git --version <br/>
+3. git --version
   git==2.28.0
-4. java --version <br/>
+4. java --version
   java==11.0.4
-5. mvn --version <br/>
+5. mvn --version
   maven==3.6.3
-6. pip freeze <br/>
+6. pip freeze
   lxml==4.5.2  
   mysql-connector-python==8.0.21  
   requests==2.24.0  
@@ -32,7 +32,7 @@ Database
 * MySQL-Windows - https://dev.mysql.com/downloads/windows/installer/8.0.html (mysql-installer-web-community-8.0.21.0.msi)
 
 Scraper
-* Python 3 (install the following via `pip install -r scraper/requirements.txt`)
+* Python 3 (install the following via pip install -r scraper/requirements.txt)
     * lxml 4.5.2 - https://pypi.org/project/lxml/
     * mysql-connector-python - https://dev.mysql.com/doc/connector-python/en/
     * requests 2.24.0 - https://requests.readthedocs.io/en/master/
