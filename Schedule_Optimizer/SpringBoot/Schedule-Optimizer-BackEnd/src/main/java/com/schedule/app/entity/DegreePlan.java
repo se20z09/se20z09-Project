@@ -47,9 +47,10 @@ public class DegreePlan {
 
 	/**
 	 * Constructor, creates a new DegreePlan object
-	 * @param degreeId Registrar's designator for this degree plan, e.g. 14CSCBS
+	 * 
+	 * @param degreeId   Registrar's designator for this degree plan, e.g. 14CSCBS
 	 * @param department Abbreviation of degree's department e.g. CSC
-	 * @param name Name of major, e.g. Computer Science
+	 * @param name       Name of major, e.g. Computer Science
 	 * @param courseList ArrayList of courses required to complete degree
 	 */
 	public DegreePlan(String degreeId, String department, String name, ArrayList<Course> courseList) {

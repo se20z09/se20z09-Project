@@ -60,38 +60,41 @@ public class Course {
 	@Column(name = "isprereq")
 	// Does this course fulfill a prerequisite for another course? Default to false
 	private boolean isPrereq = false;
-	
+
 	@Column(name = "allsemesters")
 	// Is this course offered all semesters each year? Or just certain semesters?
 	private boolean allSemesters;
-	
+
 	@Column(name = "allyears")
 	// Is this course offered every year or only odd/even years?
 	private boolean allYears;
-	
+
 	@Column(name = "fall")
 	// Is this course offered in the Fall semester?
 	private boolean fall;
-	
+
 	@Column(name = "spring")
 	// Is this course offered in the Spring semester?
 	private boolean spring;
-	
+
 	@Column(name = "nextyear")
 	// What is the next year this course is offered? E.g. 2020 for offered this year
 	private int nextYear;
 
 	/**
 	 * Creates a new course object that has no prerequisites or corequisites
-	 * @param department Abbreviation of course's department, e.g. CSC
+	 * 
+	 * @param department   Abbreviation of course's department, e.g. CSC
 	 * @param courseNumber Number of course, e.g. 510
-	 * @param credits Number of credits course is worth, e.g. 3
-	 * @param isPrereq Does this course fulfill a prerequisite for another course?
+	 * @param credits      Number of credits course is worth, e.g. 3
+	 * @param isPrereq     Does this course fulfill a prerequisite for another
+	 *                     course?
 	 * @param allSemesters Is this course offered all semesters of the school year?
-	 * @param allYears Is this course offered every year?
-	 * @param fall Is this course offered in the Fall semester?
-	 * @param spring Is this course offered in the Spring semester?
-	 * @param nextYear The next year that this course will be offered, e.g. 2020 for current year
+	 * @param allYears     Is this course offered every year?
+	 * @param fall         Is this course offered in the Fall semester?
+	 * @param spring       Is this course offered in the Spring semester?
+	 * @param nextYear     The next year that this course will be offered, e.g. 2020
+	 *                     for current year
 	 */
 	public Course(String department, int courseNumber, int credits, boolean isPrereq, boolean allSemesters,
 			boolean allYears, boolean fall, boolean spring, int nextYear) {
@@ -111,19 +114,22 @@ public class Course {
 
 	/**
 	 * Creates a new course object that has no prerequisites or corequisites
-	 * @param department Abbreviation of course's department, e.g. CSC
+	 * 
+	 * @param department   Abbreviation of course's department, e.g. CSC
 	 * @param courseNumber Number of course, e.g. 510
-	 * @param credits Number of credits course is worth, e.g. 3
-	 * @param prereq1 Prerequisite for this course, null if none
-	 * @param prereq2 Prerequisite for this course, null if none
-	 * @param prereq3 Prerequisite for this course, null if none
-	 * @param coreq Corequisite for this course, null if none
-	 * @param isPrereq Does this course fulfill a prerequisite for another course?
+	 * @param credits      Number of credits course is worth, e.g. 3
+	 * @param prereq1      Prerequisite for this course, null if none
+	 * @param prereq2      Prerequisite for this course, null if none
+	 * @param prereq3      Prerequisite for this course, null if none
+	 * @param coreq        Corequisite for this course, null if none
+	 * @param isPrereq     Does this course fulfill a prerequisite for another
+	 *                     course?
 	 * @param allSemesters Is this course offered all semesters of the school year?
-	 * @param allYears Is this course offered every year?
-	 * @param fall Is this course offered in the Fall semester?
-	 * @param spring Is this course offered in the Spring semester?
-	 * @param nextYear The next year that this course will be offered, e.g. 2020 for current year
+	 * @param allYears     Is this course offered every year?
+	 * @param fall         Is this course offered in the Fall semester?
+	 * @param spring       Is this course offered in the Spring semester?
+	 * @param nextYear     The next year that this course will be offered, e.g. 2020
+	 *                     for current year
 	 */
 	public Course(String department, int courseNumber, int credits, Course prereq1, Course prereq2, Course prereq3,
 			Course coreq, boolean isPrereq, boolean allSemesters, boolean allYears, boolean fall, boolean spring,
@@ -174,7 +180,7 @@ public class Course {
 	public void setCredits(int credits) {
 		this.credits = credits;
 	}
-	
+
 	public ArrayList<Course> getPrereqs() {
 		ArrayList<Course> prereqs = new ArrayList<Course>();
 		prereqs.add(prereq1);
@@ -183,7 +189,7 @@ public class Course {
 		}
 		if (prereq3 != null) {
 			prereqs.add(prereq3);
-		}	
+		}
 		return prereqs;
 	}
 
@@ -244,35 +250,3 @@ public class Course {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
