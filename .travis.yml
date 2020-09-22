@@ -5,9 +5,4 @@ jdk:
   
 before_install:
   - cd Schedule_Optimizer/SpringBoot/Schedule-Optimizer-BackEnd
-
-# install:
-#   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-
-# script:
-#   - mvn test -B
+  - chmod +x mvnw
