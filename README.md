@@ -1,6 +1,6 @@
 # se20z09-Project
 ## Recourse - The Smart Degree Planner
-[![DOI](https://zenodo.org/badge/293668834.svg)](https://zenodo.org/badge/latestdoi/293668834)
+[![Build Status](https://travis-ci.com/se20z09/se20z09-Project.svg?branch=master)](https://travis-ci.com/se20z09/se20z09-Project)   [![DOI](https://zenodo.org/badge/293668834.svg)](https://zenodo.org/badge/latestdoi/293668834)
 
 ### Check out the video by clicking on image below
 [![Watch the video](https://img.youtube.com/vi/bXHF39NtZzY/0.jpg)](https://www.youtube.com/watch?v=bXHF39NtZzY)
