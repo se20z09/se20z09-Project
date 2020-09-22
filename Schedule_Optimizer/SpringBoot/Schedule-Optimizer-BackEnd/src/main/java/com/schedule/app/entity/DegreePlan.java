@@ -54,7 +54,7 @@ public class DegreePlan {
 	 * @param courseList ArrayList of courses required to complete degree
 	 */
 	public DegreePlan(String degreeId, String department, String name, ArrayList<Course> courseList) {
-		if (department.length() < 2 || department.length() > 4) {
+		if (department.trim().length() < 1 || department.trim().length() > 4) {
 			throw new IllegalArgumentException("Department abbreviation is not valid.");
 		}
 		this.degreeId = degreeId;
@@ -76,7 +76,7 @@ public class DegreePlan {
 	}
 
 	public void setDepartment(String department) {
-		if (department.length() < 2 || department.length() > 4) {
+		if (department.trim().length() < 1 || department.trim().length() > 4) {
 			throw new IllegalArgumentException("Department abbreviation is not valid.");
 		}
 		this.department = department;
@@ -87,6 +87,9 @@ public class DegreePlan {
 	}
 
 	public void setName(String name) {
+		if (name.trim() == "") {
+			throw new IllegalArgumentException("Name cannot be blank.");
+		}
 		this.name = name;
 	}
 
