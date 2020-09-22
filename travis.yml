@@ -3,4 +3,8 @@ language: java
 jdk:
   - oraclejdk11
 
-install: ant deps
+install:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
+script:
+  - mvn test -B
