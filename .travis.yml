@@ -1,12 +1,12 @@
 language: java
 
 jdk:
-  - oraclejdk11
+  - oraclejdk8
 
 addons:
 apt:
 packages:
-  - oracle-java11-installer
+  - oracle-java8-installer
   
 before_install:
   - cd Schedule_Optimizer/SpringBoot/Schedule-Optimizer-BackEnd
